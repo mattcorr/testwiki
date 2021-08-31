@@ -1,0 +1,18 @@
+site_name: DevOps Knowledge Base
+site_url: https://devops.moqdigital.com
+
+repo_url: https://github.com/mattcorr/testwiki/
+
+theme: 
+    name: material
+    palette:
+      primary: cyan
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - admonition
+  - pymdownx.details
